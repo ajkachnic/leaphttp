@@ -1,0 +1,41 @@
+{
+  "name": "leaphttp",
+  "version": "0.1.0",
+  "description": "An http microframework, designed to be extendable",
+  "main": "dist/index.cjs",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajkachnic/leaphttp.git"
+  },
+  "keywords": [
+    "http",
+    "framework",
+    "micro-framework"
+  ],
+  "author": "Andrew Kachnic <ajkachnic@protonmail.com> (https://andrewkachnic.now.sh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajkachnic/leaphttp/issues"
+  },
+  "homepage": "https://github.com/ajkachnic/leaphttp#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.12",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "eslint": "^7.15.0",
+    "husky": "^4.3.5",
+    "rollup": "^2.34.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "path-to-regexp": "^6.2.0"
+  }
+}
