@@ -1,10 +1,10 @@
-# leap
+# leaphttp
 
-> leap is a powerful, light micro-http framework, with a focus on an extendable plugin interface, and a great developer experience
+> leaphttp is a powerful, light micro-http framework, with a focus on an extendable plugin interface, and a great developer experience
 
 ## Getting started
 
-You can install leap with your package manager of choice like so:
+You can install leaphttp with your package manager of choice like so:
 
 ```sh
 # For npm
@@ -65,7 +65,7 @@ You can create new routes with the `app.route` function. The first arguement of 
 }
 ```
 
-Internally, leap uses [`path-to-regexp`](https://github.com/pillarjs/path-to-regexp) to check if a path matches the pattern. You can read their documentation for more info on routing.
+Internally, leaphttp uses [`path-to-regexp`](https://github.com/pillarjs/path-to-regexp) to check if a path matches the pattern. You can read their documentation for more info on routing.
 
 ### Context
 
