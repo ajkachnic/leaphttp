@@ -8,17 +8,17 @@ You can install leaphttp with your package manager of choice like so:
 
 ```sh
 # For npm
-npm i leaphttp
+npm i @leaphttp/core
 # For yarn
-yarn add leaphttp
+yarn add @leaphttp/core
 # For pnpm
-pnpm i leaphttp
+pnpm i @leaphttp/core
 ```
 
 After installing, you can set up a simple hello world app in javascript like this:
 
 ```js
-const { server } = require('leaphttp')
+const { server } = require('@leaphttp/core')
 
 const app = server({
   port: 3000
@@ -104,7 +104,7 @@ json(object) // converts an object to string and sets the content type
 You can create a plugin and hook into lifecycle events for the request. Here's an example of a plugin that post-processes pug:
 
 ```js
-const { Plugin } = require('leaphttp')
+const { Plugin } = require('@leaphttp/core')
 const pug = require('pug')
 class Pug extends Plugin {
   onPreResponse(ctx, h, resp) {

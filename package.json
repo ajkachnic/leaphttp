@@ -1,5 +1,5 @@
 {
-  "name": "leaphttp",
+  "name": "@leaphttp/core",
   "version": "0.1.1",
   "description": "An http microframework, designed to be extendable",
   "main": "dist/index.cjs",
